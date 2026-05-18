@@ -1,6 +1,6 @@
-text = input("enter the string:")
-reversed_text = [::-1]
-if reversed_text == text:
-    print("it iS a palindrome")
-else:
-    print("it is not a palindrome")
+def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(10, 20)
+
+print("Sum is:", result)
